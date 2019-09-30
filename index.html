@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Project-2</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+    <meta name="description" content="fullPage full-screen background videos." />
+    <meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,video,full-screen" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.6/jquery.fullPage.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/foundation.css" />
+	<link rel="stylesheet" type="text/css" href="css/app.css" />
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+</head>
+
+<body>
+	<div id="fullpage">
+
+		<div class="section" id="section0">
+			<video id="myVideo" loop data-autoplay>
+				<source src="imgs/video.mp4" type="video/mp4">
+			</video>
+			<div class="layer">
+				<h1>Introduction of Guzheng</h1>
+			</div>
+			<div class="scroll1"><a href="#section1"><span></span></a></div>
+		</div>
+
+		<div class="section" id="section1">
+			<div class="grid-y grid-container" >
+				<div class="small-2 medium-2 large-2">
+					<h1>Overview</h1>
+				</div>
+				<div class="grid-x small-8 medium-8 large-8">
+					<div class="cell large-6 medium-6 small-6">
+						<h3>The zheng or guzheng, also known as a Chinese zither, is a Chinese plucked string instrument with a more than 2,500-year history. The modern guzheng commonly has 21 strings, is 64 inches (1.6 m) long, and is tuned in a major pentatonic scale. </h3>
+					</div>
+					<div class="cell large-6 medium-6 small-6">
+						<div class="wrapper">
+							<div class="fan">
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment leaf"><div class="top"></div><div class="bottom"></div></div>
+	    <div class="segment base"><div class="top"></div><div class="bottom"></div></div>
+	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section" id="section2">
+			<div class="grid-y grid-container" >
+				<div class="small-2 medium-2 large-2">
+					<h1>History</h1>
+				</div>
+				<div class="grid-x grid-margin-x small-8 medium-8 large-8">
+					<div class="cell large-6 medium-6 small-6">
+						<h3>There are varied accounts for how the guzheng came to be. An early guzheng-like instrument is said to have been invented by Meng Tian, a general of the Qin dynasty (221-206 BCE), largely influenced by the se. </h3>
+					</div>
+					<div class="cell large-6 medium-6 small-6">
+						<img class="image" src="imgs/history.gif" alt="">
+
+					</div>
+				</div>
+		  </div>
+		</div>
+
+		<div class="section" id="section3">
+			<div class="grid-y grid-container" >
+				<div class="small-2 medium-2 large-2">
+					<h1>Technique</h1>
+				</div>
+				<div class="grid-x grid-margin-x small-8 medium-8 large-8">
+					<div class="cell large-6 medium-6 small-6">
+						<h3>The guzheng is plucked by the fingers with or without plectra. Most modern players use plectra that are attached to up to four fingers on each hand.  </h3>
+					</div>
+					<div class="cell large-6 medium-6 small-6">
+						<img class="image" src="imgs/technique.jpg" alt="">
+
+					</div>
+				</div>
+		  </div>
+		</div>
+
+		<div class="section" id="section4">
+			<div class="grid-y grid-container" >
+				<div class="small-2 medium-2 large-2">
+					<h1 id="quiz-title">Quiz</h1>
+				</div>
+				<div class="small-8 medium-8 large-8">
+					<div>
+						<form id="quiz-wrap"></form>
+					</div>
+
+
+				</div>
+		  </div>
+
+
+		</div>
+
+
+
+  </div>
+
+
+
+
+
+			<script src="js/vendor/jquery.js"></script>
+				<script type="text/javascript" src="js/app.js"></script>
+			<script type="text/javascript" src="js/fullpage.js"></script>
+			<script type="text/javascript">
+					var myFullpage = new fullpage('#fullpage', {
+							anchors: ['firstPage', 'secondPage', '3rdPage','fourthPage','lastPage'],
+							navigation: true,
+							navigationPosition: 'right',
+							navigationTooltips: ['First page', 'Second page', 'Third page','Fourth page','Last page'],
+							verticalCentered: true,
+							sectionsColor: ['#734338', '#734338', '#724832','#563F2E','#9E7A7A'],
+
+							afterLoad: function(origin, destination, direction){
+
+            if(destination.index == 1){
+                document.querySelector('#section1').querySelector('h3').style.opacity = 1;
+								document.querySelector('#section1').querySelector('h1').style.opacity = 1;
+            }
+
+            //back to original state
+            else if(origin && origin.index == 1){
+                document.querySelector('#section1').querySelector('h3').style.opacity = 0;
+								document.querySelector('#section1').querySelector('h1').style.opacity = 0;
+            }
+
+						if(destination.index == 2){
+                document.querySelector('#section2').querySelector('h1').style.opacity = 1;
+                document.querySelector('#section2').querySelector('h3').style.opacity = 1;
+            }
+
+            //back to original state
+            else if(origin && origin.index == 2){
+                document.querySelector('#section2').querySelector('h1').style.opacity = 0;
+                document.querySelector('#section2').querySelector('h3').style.opacity = 0;
+
+            }
+						if(destination.index == 3){
+                document.querySelector('#section3').querySelector('h1').style.opacity = 1;
+								document.querySelector('#section3').querySelector('h3').style.opacity = 1;
+            }
+
+            //back to original state
+            else if(origin && origin.index == 3){
+
+                document.querySelector('#section3').querySelector('h3').style.opacity = 0;
+								document.querySelector('#section3').querySelector('h1').style.opacity = 0;
+            }
+
+
+            //section 3 is using the state classes to fire the animation
+            //see the CSS code above!
+        }
+
+					});
+			</script>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
